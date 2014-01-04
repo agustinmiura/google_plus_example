@@ -1,0 +1,61 @@
+{
+    "name": "amiura/silex-sample-webapp",
+    "description":"A silex webapplication that uses imperium sdk",
+    "keywords":["silex","imperium","acl"],
+    "homepage":"",
+    "time":"2013-08-13",
+    "authors":[{
+        "name":"Miura Agustín",
+        "email":"mail@gmail.com"
+    }],
+    "version":"1.0.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": "1.0.*@dev",
+        "silex/web-profiler": "1.0.*",
+        "symfony/browser-kit": "~2.2",
+        "symfony/class-loader": "~2.2",
+        "symfony/config": "~2.2",
+        "symfony/console": "~2.2",
+        "symfony/css-selector": "~2.2",
+        "symfony/finder": "~2.2",
+        "symfony/form": "~2.2",
+        "symfony/monolog-bridge": "~2.2",
+        "symfony/process": "~2.2",
+        "symfony/security": "~2.2",
+        "symfony/translation": "~2.2",
+        "symfony/twig-bridge": "~2.2",
+        "symfony/validator": "~2.2",
+        "apache/log4php": "2.3.0",
+        "doctrine/orm": "2.3.3",
+        "doctrine/dbal": "2.3.3",
+        "jasongrimes/silex-simpleuser": "~0.6.3",
+        "fkooman/guzzle-bearer-auth-plugin": "FKoomanOauth2Library",
+        "fkooman/guzzle-bearer-auth-plugin": "dev-master",
+        "fkooman/php-oauth-client": "dev-master",
+        "ivan-novakov/php-openid-connect-client": "Novakov library here",
+        "ivan-novakov/php-openid-connect-client": "dev-master",
+        "adoy/oauth2":"AdoyOauth2Library",
+        "adoy/oauth2":"dev-master",
+        "league/oauth2-client":"*"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "repositories": [
+      {
+        "type": "pear",
+        "url": "http://pear.apache.org/log4php/"
+      }],
+    "autoload": {
+        "psr-0": {
+            "GooglePlus":"myCode/"
+        }
+    }
+}

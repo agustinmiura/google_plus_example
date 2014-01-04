@@ -1,0 +1,75 @@
+;------------------------------------------------------
+;Google pĺus login
+;parameters for the oauth 2 request
+;------------------------------------------------------
+;Response type
+;------------------------------------------------------
+;
+;googlePlus.access_type  = online/offline : Default : online
+;
+googlePlus.response_type="code"
+googlePlus.client_id="Code for authorization"
+googlePlus.redirect_uri="http://www.devbox.example2.com/oauth2callback"
+googlePlus.scope="https://www.googleapis.com/auth/plus.login"
+googlePlus.access_type="online"
+googlePlus.approval_prompt="auto"
+googlePlus.auth_uri="https://accounts.google.com/o/oauth2/auth"
+googlePlus.token_uri="https://accounts.google.com/o/oauth2/token"
+googlePlus.state=""
+;
+;----------------------------------------------
+;Cache where twig stores the cache
+;-----------------------------------------
+twig.cache="/home/user/tmp/oauth2GooglePlus/twig_cache"
+;-----------------------------------
+;Monolog log file
+;-------------------------------------------
+monolog.logfile="/home/user/tmp/oauth2GooglePlus/monolog.log"
+;------------------------------------------------------
+;Google pĺus login
+;parameters for the oauth 2 request
+;------------------------------------------------------
+;Response type
+;------------------------------------------------------
+googlePlus.response_type="code"
+
+;
+;App client unique id
+;
+googlePlus.client_id="googlePlusClientId"
+
+;
+;Where to send the access code
+;
+googlePlus.redirect_uri="http://www.devbox.example2.com/oauth2callback"
+
+;
+;Request access to the user identification in google plus
+;
+googlePlus.scope="https://www.googleapis.com/auth/plus.login"
+googlePlus.state=""
+
+;
+;online/offline : Default : online
+;
+googlePlus.access_type="online"
+googlePlus.approval_prompt="auto"
+
+;
+;Google plus client_secret application
+;
+googlePlus.client_secret="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+
+;----------------------------------------------
+;Cache where twig stores the cache
+;-----------------------------------------
+twig.cache="/home/user/tmp/oauth2GooglePlus/twig_cache"
+;-----------------------------------
+;Monolog log file
+;-------------------------------------------
+monolog.logfile="/home/user/tmp/oauth2GooglePlus/monolog.log"
+;---------------------------------------------
+;Parameters for the 
+; "https://github.com/fkooman/php-oauth-client" client
+;-------------------------------------------------
+fkooman.logFile = "/home/user/tmp/oauth2GooglePlus/fkooman/oauth2.log"
